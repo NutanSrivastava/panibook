@@ -29,7 +29,7 @@
     .bottom-footer{padding: 30px 0;}
     .btn-navi {font-size: 15px;}
 
-       .logo img { float: left;width: 100%;height: 51px;}
+    .logo img { float: left;width: 100%;height: 56px;}
     /*About page start*/
     .about-submit {font-size: 15px;margin-bottom: 9px;}
 
@@ -65,7 +65,7 @@
     /*About page end*/
 
     /*ordernow page start*/
-    .ordernow-main h3{text-align: center; font-size: 28px; padding: 0;}
+    .ordernow-main h3{text-align: center; font-size: 31px; padding: 0;}
     .ordernow-main h2{    padding-left: 0;font-size: 23px;text-align: center;padding: 28px 0px;}
     .ordernow-main{padding: 216px 0 220px;}
     .order-banner2 h3{text-align: center; font-size: 33px;line-height: 0;}
@@ -93,7 +93,7 @@
     .contactus-main .query-button{    padding: 12px 5px; font-size: 15px;}
     .contactus-main h2{font-size: 30px;}
     .contactus-main h3{padding: 21px 0;line-height: 20px; font-size: 15px;}
-    .contactus-main {     padding: 240px 0 105px;}
+    .contactus-main {     padding: 240px 0 125px;}
     .contact-info-div h2{text-align: center; padding: 30px 0}
     .ul-list-contact .list-contact {font-size: 18px;letter-spacing: 0px; text-align: left;}
     .contact-page-form-section{background:none;}
@@ -190,8 +190,8 @@
 
     /*faq css start here*/
     .faq-main h2 {font-size: 35px;letter-spacing: 0px; margin-bottom: 21px;}
-    .faq-main h3 {font-size: 15px;    line-height: 18px;letter-spacing: 0px;}
-    .faq-main {padding: 193px 0 122px;}
+    .faq-main h3 {font-size: 19px;    line-height: 25px;letter-spacing: 0px;}
+    .faq-main {padding: 245px 0 140px;}
     .faq-main a {color: #bf0603; font-size: 20px;line-height: 24px;}
     .section-title h2 {font-size: 20px;line-height: 23px;margin-top: 0;margin-bottom: 30px;}
     #accordion .panel-title a::after, #accordion .panel-title a.collapsed::after {font-size: 14px;height: 50px;width: 50px;}
