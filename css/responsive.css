@@ -144,8 +144,8 @@
     .button-click {padding: 10px 7px;font-size: 18px}
     .main-img img {margin-left: 27px;}
     .main{padding: 199px 0 220px;}
-    .main h2{padding-top: 11px; line-height: 24px;font-size: 20px;}
-    .main h3 {font-size: 30px;}
+    .main h2{padding-top: 11px; line-height: 24px;font-size: 20px; text-shadow: 1px 0 0 #000, -2px 1px 0 #000, 0px 0px 0 #000, 0 -2px 0 #000, 0px 2px #000, -2px -2px 0 #000, 0px -1px 0 #000, -2px -2px 0 #000;}
+    .main h3 {font-size: 30px; text-shadow: 1px 0 0 #000, -2px 1px 0 #000, 0px 0px 0 #000, 0 -2px 0 #000, 0px 2px #000, -2px -2px 0 #000, 0px -1px 0 #000, -2px -2px 0 #000;}
     .btn-grad {margin: 0px;padding: 9px 15px;font-size: 15px;letter-spacing: 0px;}
     .btn-grad:hover{color:#000;}
     .main-sec-title h2{font-size: 34px; text-align: center; }
