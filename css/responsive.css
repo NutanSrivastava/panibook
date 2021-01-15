@@ -1,0 +1,229 @@
+@media only screen and (max-width: 1199px){
+    .container > .row{margin: 0;}
+    .footer-nav ul{padding: 0;}
+}
+
+@media only screen and (max-width: 992px){
+    .section-padding{padding: 30px 0;}
+    .meta-info{margin-top: 10px;}
+    h4{line-height: 25px;font-size: 18px;}
+    h2,.registration-info h2{font-size: 32px;line-height: 34px;}
+    .features-section{padding: 60px 0;}
+    .logo{width: 90px;}
+    .header-menu li{margin-right: 30px;}
+}
+
+@media only screen and (max-width: 767px){
+    .logo{height: 64px;}
+    .header-menu li{float: left;width: 100%;padding: 0;}
+    .header-menu li{margin-right: 0;margin-bottom: 10px;}
+    .header{padding: 10px 0;}
+    .navbar-right{margin-top: 0px;width: 100%;}
+    .header-menu li a{line-height: 20px;}
+    .footer h4{margin-bottom: 10px;}
+    .footer ul li{margin-bottom: 5px;}
+    .navbar-nav .open .dropdown-menu>li>a{line-height: 10px;}
+    .navbar-toggle{padding: 24px 10px}
+    .margin-top{margin-top: 84px;padding: 30px 0;}
+    .padding-bottom{padding-bottom: 10px;}
+    .bottom-footer{padding: 30px 0;}
+    .btn-navi {font-size: 15px;}
+
+       .logo img { float: left;width: 100%;height: 51px;}
+    /*About page start*/
+    .about-submit {font-size: 15px;margin-bottom: 9px;}
+
+    .about-section{    background-size: 100%; padding: 0px 10px;}
+    .inner-container{padding: 10px; width: 100%}
+    .inner-container h1{font-size: 25px; text-align: center; font-weight: 0; padding-top: 45px; line-height: 0}
+    .d-none{display: none;} 
+    .about-desc1 p {font-size: 15px; padding-top: 19px; text-align: justify; padding-bottom: 15px;}
+    .desc1 p{font-size: 18px; padding-top: 19px; text-align: justify; padding-bottom: 15px;}
+    .inner-container .text1{text-align: justify;     font-size: 15px; line-height: 21px;}
+     /*.inner-container h1{font-size: 30px;}*/
+    .inner-container .text{text-align: justify; font-size: 12px; line-height: 22px;}
+    .inner-del h2{line-height: 0.3px; padding-top: 40px; text-align: center; font-size: 40px;}
+    .inner-del h2 span{font-size: 35px;}
+    .inner-del p{padding-bottom: 35px; font-size: 15px; text-align: justify; font-weight: normal;}
+    .list-text-contact .tick{font-size: 20px;}
+    .list-text-contact{    font-size: 13px;font-family: 'Signika Negative';font-weight: 600;}
+
+    .btn2 {    padding: 13px 19px;font-size: 14px;}
+    .btn2 :hover{ padding: 13px 19px;font-size: 14px;}
+    .btn-div{text-align: center; padding: 25px 0; }
+    .aboutus-main h2{font-size: 48px;}
+    .aboutus-main h3{line-height: 1.2em;  padding: 35px 0;}
+    .aboutus-main{padding: 242px 0 109px;}
+    .aboutus-main .query-button{padding: 10px 14px;}
+    .aboutus-main .query-button:hover{padding: 10px 14px;}
+    .wave{display: none;}
+    .about-desc1 img {height: 75px;}
+    .desc1 img {height: 75px;}
+    .about-delivery-section{margin: 0; padding: 60px 0;}
+    .col-md-6.text-center.glass-img {width: 13em;margin-left: 55px; padding-bottom: 45px;}
+    
+    /*About page end*/
+
+    /*ordernow page start*/
+    .ordernow-main h3{text-align: center; font-size: 28px; padding: 0;}
+    .ordernow-main h2{    padding-left: 0;font-size: 23px;text-align: center;padding: 28px 0px;}
+    .ordernow-main{padding: 216px 0 144px;}
+    .order-banner2 h3{text-align: center; font-size: 33px;line-height: 0;}
+    .order-banner2 p {    font-size: 16px;    text-align: justify;padding: 20px;}
+    .order-banner2-img {text-align: center;}
+    .order-banner2-img img {width: 12em;}
+    .order-banner3 h3{text-align: center; font-size: 33px;line-height: 0;}
+    .order-banner3 p {    font-size: 16px;    text-align: justify;padding: 20px;}
+    .urgent-div h2 {font-size: 23px;text-align: center;padding: 20px 0;}
+    .form-inner label{font-size: 16px;}
+    .urgent-form-input{height: 30px;}
+    .urgent-submit {padding: 5px 4px; margin: 0; font-size: 15px;text-transform: none;}
+    .urgent-submit:hover{padding: 5px 4px; margin: 0}
+    .urgent-form-input-textarea{padding: 0;     margin-bottom: 15px;}
+    .urgent-form-div {padding: 30px 0;}
+    .cal-img {padding: 25px 0;}
+    .scheduled-form-input{height: 30px;}
+    .scheduled-form-input-textarea{padding: 0px 25px; margin-bottom:10px; }
+    .scheduled-submit{padding: 5px 5px; margin: 0;     text-transform: none;font-size: 16px;}
+    .scheduled-submit:hover{padding: 5px 5px; margin: 0;}
+
+    /*ordernow page end*/
+
+    /*contact us page start*/
+    .contactus-main .query-button{    padding: 12px 5px; font-size: 15px;}
+    .contactus-main h2{font-size: 30px;}
+    .contactus-main h3{padding: 21px 0;line-height: 20px; font-size: 15px;}
+    .contactus-main {     padding: 240px 0 105px;}
+    .contact-info-div h2{text-align: center; padding: 30px 0}
+    .ul-list-contact .list-contact {font-size: 18px;letter-spacing: 0px; text-align: left;}
+    .contact-page-form-section{background:none;}
+    .conatct-form-col{background-color: #21b6ff}
+    .contact-form-div h2{text-align: center; font-size: 42px;}
+    .contact-form-inner label{font-size: 20px;}
+    .contact-form-div {    padding: 60px 20px;}
+    .contact-form-input{height: 30px;padding: 0px 16px; font-size: 16px; border-radius: 3px;}
+    .contact-form-input-textarea {height: 89px;font-size: 16px;border-radius: 11px;    padding: 0px 10px;}
+    .message-btn.contact-submit {padding: 10px 17px; font-size: 17px}
+    .message-btn.contact-submit:hover{padding: 10px 17px; font-size: 17px}
+    /*contact us page ends*/
+
+
+    /*login page css start*/
+    .login-main h2{    font-size: 40px;}
+    .login-main{padding: 200px 0 200px;}
+    .login-image-div img{margin-left: 10px;}
+    .login-form-div h2 {padding-top: 45px;text-align: center;font-size: 27px;}
+    .login-form-input{    width: 100%;height: 45px; padding: 0px 20px; font-size: 13px;}
+    .message-btn .login-submit {padding: 7px 25px; font-size: 15px; border-radius: 22px;}
+    .message-btn .login-submit:hover{padding: 8px 26px; font-size: 17px} 
+    /*login page css ends*/
+
+    /*signup css start*/
+    .signup-main h2{ color:#0a213d;   font-size: 30px;}
+    .signup-main{    background-position: top right;padding: 179px 0 66px;}
+    .login-image-div {padding-top: 38px;}
+    .signup-form-div h2{font-size: 34px;}
+    .form-contact .form-inner label{font-size: 15px;}
+    .signup-form-input{ font-size: 12px;      border-radius: 9px; width: 100%;height: 36px; padding: 0px 20px;}
+    .message-btn .contact-submit {padding: 10px 17px; font-size: 15px}
+    .message-btn .contact-submit:hover{padding: 8px 26px; font-size: 17px}
+    .container.signup-form-div {padding-bottom: 40px;} 
+    .signup-submit {font-size: 15px;border-radius: 7px;}
+    .signup-submit:hover{font-size: 15px;border-radius: 7px;}
+    /*signup css ends*/
+
+    /*otp page css start*/
+    .otp-head {font-size: 14px;text-align: justify;padding-bottom: 20px;}
+    .otp-main {background-position: bottom right;}
+    .otp-enter {    font-size: 16px;    font-weight: bold;color: #343a40;}
+    .otp-submit {    padding: 4px 23px;text-transform: none;font-size: 16px;}
+    .otp-text {    padding: 20px 0;    font-size: 14px;}
+    /*otp page css end*/
+
+    /*index css start*/
+    .button-click {padding: 10px 7px;font-size: 18px}
+    .main-img img {margin-left: 27px;}
+    .main{padding: 199px 0 220px;}
+    .main h2{padding-top: 11px; line-height: 24px;font-size: 20px;}
+    .main h3 {font-size: 30px;}
+    .btn-grad {margin: 0px;padding: 9px 15px;font-size: 15px;letter-spacing: 0px;}
+    .btn-grad:hover{color:#000;}
+    .main-sec-title h2{font-size: 34px; text-align: center; }
+    .main-sec-title {padding: 20px 0;}
+    .main-sec-desc p {font-size: 15px;text-align: justify;}
+    .main-section .main-btn{background-color: #1fa0f1;}
+    .main-btn-sec .btn-urgent {margin: 0px; padding: 7px 10px;    font-size: 17px;}
+    .main-btn-sec .btn-urgent:hover{margin: 0px; padding: 7px 10px;    font-size: 17px;}
+    .main-btn-sec .btn-schduled {padding: 7px 10px;    font-size: 17px;}
+    .main-btn-sec .btn-schduled:hover{padding: 7px 10px;    font-size: 17px;}
+    .main-btn-sec {text-align: center;}
+    .video-container p{padding-bottom: 35px; font-size: 15px; }
+    .video-div iframe{height: 220px;}
+    .copyright {    font-size: 13px;}
+    .footer-logo { font-size: 35px;}
+    .footer-col {padding: 15px}
+    .footer-nav ul li a {font-size: 16px;line-height: 20px;}
+    .footer-add {margin-top: -25px !important;}
+    
+    .delivery-section{padding: 0;}
+    .delivery-column p {font-size: 16px;}
+    .delivery-column p {padding: 10px 0;}
+    .delivery-container h2 {font-size:35px; padding-bottom: 15px;}
+    .send-request-div .email-input {    margin-bottom: 10px; font-size: 13px;line-height: 1em;width: 100%;}
+    .send-request-div .about-submit{ text-transform: none;   padding: 5px 24px;font-size: 18px;margin: 0;}
+    .delivery-image-column {min-height: 40vh;}
+    .send-request-div {padding: 25px 0;}
+    .delivery-section1 {padding: 6px 0;}
+    .delivery-container .desc1 i {font-size: 30px;}
+    .delivery-container .desc1 p {font-size: 15px;padding: 25px 0px;}
+    .water-glass img {width: 130px;}
+    .delivery-container .desc1 {padding: 20px 0;}
+
+
+    .info-sub-col h3 {padding: 25px 0;font-size: 24px;}
+    .tick {    font-size: 25px;   padding-right: 12px;}
+    .info-sub-col .list-text {font-size: 14px;letter-spacing: 0px;}
+    .btn1 {padding: 5px 5px;font-size: 15px;}
+    .btn1:hover{padding: 5px 5px;font-size: 15px;}
+    /*index css end*/
+
+
+    /*faq css start here*/
+    .faq-main h2 {font-size: 35px;letter-spacing: 0px; margin-bottom: 21px;}
+    .faq-main h3 {font-size: 15px;    line-height: 18px;letter-spacing: 0px;}
+    .faq-main {padding: 193px 0 122px;}
+    .faq-main a {color: #bf0603; font-size: 20px;line-height: 24px;}
+    .section-title h2 {font-size: 20px;line-height: 23px;margin-top: 0;margin-bottom: 30px;}
+    #accordion .panel-title a::after, #accordion .panel-title a.collapsed::after {font-size: 14px;height: 50px;width: 50px;}
+    #accordion .panel-title a {margin-bottom: 5px; font-size: 15px;padding: 10px 0px 6px 37px;}
+    .faq-panel-group {padding: 0px;}
+    #accordion .panel-body p { text-align: justify;font-size: 14px;}
+    .modal-title {padding-top: 26px; font-size: 24px;}
+    .modal-body h3{font-size: 19px;line-height: 9px;}
+    .modal-body input {margin-bottom: 0px;padding: 7px;}
+    .modal-submit {padding: 0px 5px; text-transform: none; font-size: 17px;}
+    .modal-header {padding: 0px;}
+    .faq-main h3 a {color: maroon;font-size: 23px;}
+    /*faq css ends here*/
+}
+
+
+/*@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}*/
+
+/*@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}*/
+
+@media screen and (max-width:600px){
+ 
+} 
