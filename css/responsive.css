@@ -111,25 +111,29 @@
     /*login page css start*/
     .login-main h2{    font-size: 40px;}
     .login-main{padding: 200px 0 200px;}
-    .login-image-div img{margin-left: 10px;}
-    .login-form-div h2 {padding-top: 45px;text-align: center;font-size: 27px;}
-    .login-form-input{    width: 100%;height: 45px; padding: 0px 20px; font-size: 13px;}
+    .login-image-div img{    height: 16em;}
+    .login-form-div h2 {padding-top: 16px; padding-bottom:27px; text-align: center;font-size: 27px;}
+    .login-form-input{    width: 100%;height: 48px; padding: 0px 20px; font-size: 14px;}
     .message-btn .login-submit {padding: 7px 25px; font-size: 15px; border-radius: 22px;}
     .message-btn .login-submit:hover{padding: 8px 26px; font-size: 17px} 
+    .login-container {    padding: 97px 0 0px;background: none}
+    .login-inner-container {   padding: 50px 15px 15px 15px;  background: url(../images/services_banner.jpg);background-size: cover;background-position: right;}
     /*login page css ends*/
 
     /*signup css start*/
     .signup-main h2{ color:#0a213d;   font-size: 30px;}
     .signup-main{    background-position: top right;padding: 221px 0 66px;}
-    .login-image-div {padding-top: 38px;}
+    .login-image-div {padding-top: 0px;}
     .signup-form-div h2{font-size: 34px;}
     .form-contact .form-inner label{font-size: 15px;}
-    .signup-form-input{ font-size: 12px;      border-radius: 9px; width: 100%;height: 36px; padding: 0px 20px;}
+    .signup-form-input{ font-size: 14px;      border-radius: 5px; width: 100%;height: 40px; padding: 0px 20px;}
     .message-btn .contact-submit {padding: 10px 17px; font-size: 15px}
     .message-btn .contact-submit:hover{padding: 8px 26px; font-size: 17px}
-    .container.signup-form-div {padding-bottom: 40px;} 
+    .container.signup-form-div {padding-bottom: 40px;      box-shadow: none;background: url(../images/signn.png);background-position: right;} 
     .signup-submit {font-size: 15px;border-radius: 7px;}
     .signup-submit:hover{font-size: 15px;border-radius: 7px;}
+    .signup-image-div img {display: none;}
+    .signup-section {padding-top: 96px; background:none; padding-bottom: 0;}
     /*signup css ends*/
 
     /*otp page css start*/

@@ -64,9 +64,6 @@
                             <a href="aboutus.html">About Us</a>
                         </li>
                         <li>
-                            <a href="ordernow.html">Order Now</a>
-                        </li>
-                        <li>
                             <a href="faqs.html">FAQs</a>
                         </li>
                         <li>
@@ -88,7 +85,7 @@
       <div class="col-md-12 col-sm-12 text-center">
         <h3>Understanding the importance of life</h3>
         <h2>Pure & Healthy Drinking Water</h2>   
-        <button onclick="window.location.href='ordernow.html';" class="btn btn-grad text-center">
+        <button class="btn btn-grad text-center" data-toggle="modal"  data-target="#orderModal">
             Order Today
         </button>
       </div>      
@@ -112,8 +109,8 @@
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                  </div>
                  <div class="main-btn-sec full-width">
-                    <button class="btn btn-urgent" onclick="window.location.href='ordernow.html';" >Urgent Requirement</button>
-                    <button class="btn btn-schduled" onclick="window.location.href='ordernow.html';">Scheduled Requirement</button>
+                    <button class="btn btn-urgent" onclick="window.location.href='urgent-requirement.html';" >Urgent Requirement</button>
+                    <button class="btn btn-schduled" onclick="window.location.href='scheduled-requirement.html';">Scheduled Requirement</button>
                  </div>
                </div>
             </div>
@@ -161,8 +158,10 @@
             <h2>Schedule a in-home delivery</h2>
             <p>Contact Us Today and get a call back</p>
             <div class="send-request-div" >
+              <form>
               <input class="email-input form-input" type="email" name="" placeholder="Enter Your Email or Phone Number" required="" >
-              <button class="btn about-submit">Send</button>
+              <button type="submit" class="btn about-submit">Send</button>
+              </form>
             </div>
           </div>
           <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 delivery-image-column">
@@ -231,7 +230,7 @@
                 </ul>
               </div>
               <div class="btn-order-div">
-                <button onclick="window.location.href='ordernow.html';" type="button" name="button" class="btn btn1 box-shadow">Order Now</button>
+                <button data-toggle="modal"  data-target="#orderModal" type="button" name="button" class="btn btn1 box-shadow">Order Now</button>
               </div>
           </div>
       </div>
@@ -264,6 +263,47 @@
     </div>
     </section>
 <!-- modal end -->
+
+
+
+<!-- Modal -->
+<div id="orderModal" class="modal fade" role="dialog">
+  <div class=" order-modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content order-modal-content">
+      <div class="modal-header order-modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Pani Book - Order Online</h4>
+      </div>
+      <div class="order-modal-body">
+        <div class="col-md-6 col-sm-12 col-xs-12 urgent-modal-btn-section">
+          <div class="inner-btn-section text-center">
+            <h2>Urgent Requirement</h2>
+            <p>Running out of drinking water? No worries! Just use our service at Book Paani and we will deliver water cans to your location in just 3 hours. We make it possible by connecting you to the nearest delivery vehicle.</p>
+            <button class="btn btn-modal text-center" onclick="window.location.href='urgent-requirement.html';">
+              Urgent Requirement
+            </button>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12 scheduled-modal-btn-section">
+          <div class="inner-btn-section text-center">
+            <h2>Scheduled Requirement</h2>
+            <p>Get your drinking water needs in advance by using our Scheduled Paani service. Our water delivery service will make sure the cans are delivered to your doorstep right on time, even if you have been busy the entire day.</p>
+            <button class="btn btn-modal text-center" onclick="window.location.href='scheduled-requirement.html';">
+              Scheduled Requirement
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Modal -->
 
 <!-- Footer start -->
         <section class="full-width footer">
@@ -305,11 +345,6 @@
                                        <li>
                                             <a href="aboutus.html">
                                                 About Us
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="ordernow.html">
-                                                Order Now
                                             </a>
                                         </li>
                                         <li>
