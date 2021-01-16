@@ -28,7 +28,13 @@
     .padding-bottom{padding-bottom: 10px;}
     .bottom-footer{padding: 30px 0;}
     .btn-navi {font-size: 18px;}
-
+    .order-modal-dialog {margin-left: 3em;}
+    .order-modal-content{width: 90%;}
+    .inner-btn-section h2 {font-size: 20px; text-align: center;padding: 12px 0 0 0;}
+    .inner-btn-section p {display: none;}
+    .btn-modal {font-size: 13px;}
+    .modal-header .close {margin-top: 1px;    margin-right: 13px;}
+    .order-modal-title {font-size: 24px;padding: 12px 0; text-align: center; color: #fff}
     .logo img { float: left;width: 100%;height: 56px;}
     /*About page start*/
     .about-submit {font-size: 15px;margin-bottom: 9px;}
@@ -150,7 +156,7 @@
     /*index css start*/
     .button-click {padding: 10px 7px;font-size: 18px}
     .main-img img {margin-left: 27px;}
-    .main{padding: 199px 0 220px; background-position: bottom left;}
+    .main{padding: 199px 0 220px; background-position: bottom left; box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.2);}
     .main h2{padding-top: 11px; line-height: 24px;font-size: 20px; text-shadow: 1px 0 0 #000, -2px 1px 0 #000, 0px 0px 0 #000, 0 -2px 0 #000, 0px 2px #000, -2px -2px 0 #000, 0px -1px 0 #000, -2px -2px 0 #000;}
     .main h3 {font-size: 30px; text-shadow: 1px 0 0 #000, -2px 1px 0 #000, 0px 0px 0 #000, 0 -2px 0 #000, 0px 2px #000, -2px -2px 0 #000, 0px -1px 0 #000, -2px -2px 0 #000;}
     .btn-grad {margin: 0px;padding: 9px 15px;font-size: 15px;letter-spacing: 0px;}
@@ -214,23 +220,3 @@
     /*faq css ends here*/
 }
 
-
-/*@media screen and (max-width:1200px){
-    .inner-container{
-        padding: 80px;
-    }
-}*/
-
-/*@media screen and (max-width:1000px){
-    .about-section{
-        background-size: 100%;
-        padding: 100px 40px;
-    }
-    .inner-container{
-        width: 100%;
-    }
-}*/
-
-@media screen and (max-width:600px){
- 
-} 
