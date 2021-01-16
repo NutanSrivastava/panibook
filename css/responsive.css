@@ -19,7 +19,7 @@
     .header-menu li{margin-right: 0;margin-bottom: 10px;}
     .header{padding: 10px 0;}
     .navbar-right{margin-top: 0px;width: 100%;}
-    .header-menu li a{line-height: 20px;}
+    .header-menu li a{line-height: 23px; font-size: 18px}
     .footer h4{margin-bottom: 10px;}
     .footer ul li{margin-bottom: 5px;}
     .navbar-nav .open .dropdown-menu>li>a{line-height: 10px;}
@@ -27,7 +27,7 @@
     .margin-top{margin-top: 84px;padding: 30px 0;}
     .padding-bottom{padding-bottom: 10px;}
     .bottom-footer{padding: 30px 0;}
-    .btn-navi {font-size: 15px;}
+    .btn-navi {font-size: 18px;}
 
     .logo img { float: left;width: 100%;height: 56px;}
     /*About page start*/
@@ -53,7 +53,7 @@
     .btn-div{text-align: center; padding: 25px 0; }
     .aboutus-main h2{font-size: 48px;}
     .aboutus-main h3{line-height: 1.2em;  padding: 35px 0;}
-    .aboutus-main{padding: 284px 0 143px;}
+    .aboutus-main{padding: 284px 0 210px;}
     .aboutus-main .query-button{padding: 10px 14px;}
     .aboutus-main .query-button:hover{padding: 10px 14px;}
     .wave{display: none;}
@@ -67,7 +67,7 @@
     /*ordernow page start*/
     .ordernow-main h3{text-align: center; font-size: 31px; padding: 0;}
     .ordernow-main h2{    padding-left: 0;font-size: 23px;text-align: center;padding: 28px 0px;}
-    .ordernow-main{padding: 216px 0 220px;}
+    .ordernow-main{padding: 216px 0 220px; box-shadow: none;background-position: unset;}
     .order-banner2 h3{text-align: center; font-size: 33px;line-height: 0;}
     .order-banner2 p {    font-size: 16px;    text-align: justify;padding: 20px;}
     .order-banner2-img {text-align: center;}
@@ -93,7 +93,7 @@
     .contactus-main .query-button{    padding: 12px 5px; font-size: 15px;}
     .contactus-main h2{font-size: 30px;}
     .contactus-main h3{padding: 21px 0;line-height: 20px; font-size: 15px;}
-    .contactus-main {     padding: 240px 0 125px;}
+    .contactus-main {  box-shadow: none;  padding: 280px 0 170px;}
     .contact-info-div h2{text-align: center; padding: 30px 0}
     .ul-list-contact .list-contact {font-size: 18px;letter-spacing: 0px; text-align: left;}
     .contact-page-form-section{background:none;}
@@ -120,7 +120,7 @@
 
     /*signup css start*/
     .signup-main h2{ color:#0a213d;   font-size: 30px;}
-    .signup-main{    background-position: top right;padding: 179px 0 66px;}
+    .signup-main{    background-position: top right;padding: 221px 0 66px;}
     .login-image-div {padding-top: 38px;}
     .signup-form-div h2{font-size: 34px;}
     .form-contact .form-inner label{font-size: 15px;}
@@ -138,12 +138,15 @@
     .otp-enter {    font-size: 16px;    font-weight: bold;color: #343a40;}
     .otp-submit {    padding: 4px 23px;text-transform: none;font-size: 16px;}
     .otp-text {    padding: 20px 0;    font-size: 14px;}
+    .otp-input {    height: 36px;}
+    .otp-body {    padding: 25px 20px 60px 20px;background-color: #ebf6ff;}
+    .otp-body h2{font-size: 25px;}
     /*otp page css end*/
 
     /*index css start*/
     .button-click {padding: 10px 7px;font-size: 18px}
     .main-img img {margin-left: 27px;}
-    .main{padding: 199px 0 220px;}
+    .main{padding: 199px 0 220px; background-position: bottom left;}
     .main h2{padding-top: 11px; line-height: 24px;font-size: 20px; text-shadow: 1px 0 0 #000, -2px 1px 0 #000, 0px 0px 0 #000, 0 -2px 0 #000, 0px 2px #000, -2px -2px 0 #000, 0px -1px 0 #000, -2px -2px 0 #000;}
     .main h3 {font-size: 30px; text-shadow: 1px 0 0 #000, -2px 1px 0 #000, 0px 0px 0 #000, 0 -2px 0 #000, 0px 2px #000, -2px -2px 0 #000, 0px -1px 0 #000, -2px -2px 0 #000;}
     .btn-grad {margin: 0px;padding: 9px 15px;font-size: 15px;letter-spacing: 0px;}
@@ -191,7 +194,7 @@
     /*faq css start here*/
     .faq-main h2 {font-size: 35px;letter-spacing: 0px; margin-bottom: 21px;}
     .faq-main h3 {font-size: 19px;    line-height: 25px;letter-spacing: 0px;}
-    .faq-main {padding: 245px 0 140px;}
+    .faq-main {padding: 245px 0 210px;}
     .faq-main a {color: #bf0603; font-size: 20px;line-height: 24px;}
     .section-title h2 {font-size: 20px;line-height: 23px;margin-top: 0;margin-bottom: 30px;}
     #accordion .panel-title a::after, #accordion .panel-title a.collapsed::after {font-size: 14px;height: 50px;width: 50px;}
