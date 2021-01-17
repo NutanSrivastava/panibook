@@ -94,13 +94,14 @@
     .scheduled-submit:hover{padding: 5px 5px; margin: 0;}
     .urgent-div {padding-top: 2px;padding-bottom: 10px;padding-left: 15px;padding-right: 15px;}
     .urgent-img img {display: none;}
+    .urgent-section {padding: 150px 0 45px;    background: url(../images/urgent.png);background-size: contain;background-position: bottom; background-repeat: round;}
     /*ordernow page end*/
 
     /*contact us page start*/
     .contactus-main .query-button{    padding: 12px 5px; font-size: 15px;}
-    .contactus-main h2{font-size: 30px;}
-    .contactus-main h3{padding: 21px 0;line-height: 20px; font-size: 15px;}
-    .contactus-main {  box-shadow: none;  padding: 280px 0 170px;}
+    .contactus-main h2{font-size: 38px; text-shadow: 1px 0 0 #000, -2px 1px 0 #000, 0px 0px 0 #000, 0 -2px 0 #000, 0px 2px #000, -2px -2px 0 #000, 0px -1px 0 #000, -2px -2px 0 #000;}
+    .contactus-main h3{padding: 21px 0;line-height: 30px; text-transform: initial; font-size: 23px; text-shadow: 1px 0 0 #000, -2px 1px 0 #000, 0px 0px 0 #000, 0 -2px 0 #000, 0px 2px #000, -2px -2px 0 #000, 0px -1px 0 #000, -2px -2px 0 #000;}
+    .contactus-main {  box-shadow: none;  padding: 245px 0 130px;}
     .contact-info-div h2{text-align: center; padding: 30px 0}
     .ul-list-contact .list-contact {font-size: 18px;letter-spacing: 0px; text-align: left;}
     .contact-page-form-section{background:none;}
@@ -119,12 +120,14 @@
     .login-main h2{    font-size: 40px;}
     .login-main{padding: 200px 0 200px;}
     .login-image-div img{    height: 16em;}
-    .login-form-div h2 {padding-top: 16px; padding-bottom:27px; text-align: center;font-size: 27px;}
-    .login-form-input{    width: 100%;height: 48px; padding: 0px 20px; font-size: 14px;}
+    .login-form-div h2 {padding-top: 16px; padding-bottom:5px; text-align: center;font-size: 27px;}
+    .login-form-input{    width: 100%;height: 48px; padding: 0px 40px; font-size: 14px;}
     .message-btn .login-submit {padding: 7px 25px; font-size: 15px; border-radius: 22px;}
     .message-btn .login-submit:hover{padding: 8px 26px; font-size: 17px} 
     .login-container {    padding: 97px 0 0px;background: none}
     .login-inner-container {   padding: 50px 15px 15px 15px;  background: url(../images/services_banner.jpg);background-size: cover;background-position: right;}
+    .line-hr {width: 85%;margin-left:22px; }
+    .wrapper i { top: 14px;left: 34px; font-size: 18px;}
     /*login page css ends*/
 
     /*signup css start*/
@@ -133,8 +136,8 @@
     .login-image-div {padding-top: 0px;}
     .signup-form-div h2{font-size: 34px;}
     .form-contact .form-inner label{font-size: 15px;}
-    .signup-form-input{ font-size: 14px;      border-radius: 5px; width: 100%;height: 40px; padding: 0px 20px;}
-    .message-btn .contact-submit {padding: 10px 17px; font-size: 15px}
+    .signup-form-input{ font-size: 14px;      border-radius: 5px; width: 100%;height: 40px; padding: 0px 40px;}
+    .message-btn .contact-submit {    border-radius: 6px; padding: 10px 17px; font-size: 15px}
     .message-btn .contact-submit:hover{padding: 8px 26px; font-size: 17px}
     .container.signup-form-div {padding-bottom: 40px;      box-shadow: none;background: url(../images/signn.png);background-position: right;} 
     .signup-submit {font-size: 15px;border-radius: 7px;}
@@ -157,8 +160,8 @@
     /*index css start*/
     .button-click {padding: 10px 7px;font-size: 18px}
     .main-img img {margin-left: 27px;}
-    .main{padding: 199px 0 220px; background-position: bottom left; box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.2);}
-    .main h2{padding-top: 11px; line-height: 24px;font-size: 20px; text-shadow: 1px 0 0 #000, -2px 1px 0 #000, 0px 0px 0 #000, 0 -2px 0 #000, 0px 2px #000, -2px -2px 0 #000, 0px -1px 0 #000, -2px -2px 0 #000;}
+    .main{padding: 255px 0 150px; background-position: bottom right;}
+    .main h2{padding-top: 11px; line-height: 36px;font-size: 31px; text-shadow: 1px 0 0 #000, -2px 1px 0 #000, 0px 0px 0 #000, 0 -2px 0 #000, 0px 2px #000, -2px -2px 0 #000, 0px -1px 0 #000, -2px -2px 0 #000;}
     .main h3 {font-size: 30px; text-shadow: 1px 0 0 #000, -2px 1px 0 #000, 0px 0px 0 #000, 0 -2px 0 #000, 0px 2px #000, -2px -2px 0 #000, 0px -1px 0 #000, -2px -2px 0 #000;}
     .btn-grad {margin: 0px;padding: 9px 15px;font-size: 15px;letter-spacing: 0px;}
     .btn-grad:hover{color:#000;}
@@ -204,8 +207,8 @@
 
     /*faq css start here*/
     .faq-main h2 {font-size: 35px;letter-spacing: 0px; margin-bottom: 21px;}
-    .faq-main h3 {font-size: 19px;    line-height: 25px;letter-spacing: 0px;}
-    .faq-main {padding: 245px 0 210px;}
+    .faq-main h3 {font-size: 26px;    line-height: 31px;letter-spacing: 0px;}
+    .faq-main {padding: 225px 0 130px;}
     .faq-main a {color: #bf0603; font-size: 20px;line-height: 24px;}
     .section-title h2 {font-size: 20px;line-height: 23px;margin-top: 0;margin-bottom: 30px;}
     #accordion .panel-title a::after, #accordion .panel-title a.collapsed::after {font-size: 14px;height: 50px;width: 50px;}
