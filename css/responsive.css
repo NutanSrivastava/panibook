@@ -146,15 +146,15 @@
     .urgent-form-input-textarea{padding-left: 20px; padding-top: 0;  margin-bottom: 15px;}
     .urgent-form-div {padding: 30px 0;}
     .cal-img {display: none}
-    .scheduled-form-input{height: 33px;}
-    .scheduled-form-input-textarea{padding: 0px 25px; margin-bottom:10px; }
-    .scheduled-submit{padding: 5px 5px; margin: 0;     text-transform: none;font-size: 16px;}
-    .scheduled-submit:hover{padding: 5px 5px; margin: 0;}
     .urgent-div {padding-top: 2px;padding-bottom: 10px;padding-left: 15px;padding-right: 15px;}
     .urgent-img img {display: none;}
     .urgent-section {padding: 150px 0 45px;    background: url(../images/urgent.png);background-size: contain;background-position: bottom; background-repeat: round;}
-    .wrapper-div i { left: 23px;font-size: 23px;margin-top: 53px;}
-    .wrapper-div-textarea i {font-size: 19px;    margin-top: 23px;    position: absolute;margin-left: 3px;}
+    .scheduled-img img {display: none;}
+    .scheduled-column h2{    font-size: 21px;padding: 10px 0;}
+    .scheduled-column {height: 37em;padding: 20px;     margin: 15px; }
+    .scheduled-requirement-section {background: url(../images/services_banner.jpg);background-size: cover;}
+    .form-group label {font-size: 15px;}
+    .form-group span{font-size: 11px;}
     /*ordernow page end*/
 
     /*contact us page start*/

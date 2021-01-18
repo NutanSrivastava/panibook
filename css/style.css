@@ -355,7 +355,7 @@ RESET CSS START*/
         /*.urgent-section{background:url("../images/services_banner.jpg"); background-repeat: no-repeat; background-size: cover;}*/
         .urgent-form-div{padding: 50px 0; }
         .urgent-form-div h2{padding: 30px 0; font-size: 35px ; text-align: center;}
-        .urgent-div{background:#fff; padding-top: 15px; padding-bottom: 10px; padding-left:20px; padding-right:20px;-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75); }
+        .urgent-div{background:#fff; padding-top: 15px; padding-bottom: 10px; padding-left:20px; padding-right:20px;box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75); }
         .urgent-form-input{-webkit-box-shadow: 3px 3px 8px -1px rgba(0,0,0,0.75); width: 100%;    height: 40px;    background: #f8f8f8;    font-size: 16px;    color: #666;    border-radius: 5px;    padding: 10px 25px;    border: 3px solid #f8f8f8; transition: all 500ms ease;}
         .urgent-form-input-textarea{ padding: 10px 25px; -webkit-box-shadow: 3px 3px 8px -1px rgba(0,0,0,0.75); width:100%; background: #f8f8f8;    font-size: 16px;    color: #666;    border-radius: 5px;    padding: 10px 25px;    border: 3px solid #f8f8f8; transition: all 500ms ease;}
         .form-group label{font-family: 'Signika Negative', sans-serif; font-size: 18px}
@@ -365,17 +365,11 @@ RESET CSS START*/
     /*urgent form end*/
 
     /*scheduled form start*/
-        .scheduled-section{padding: 115px 0 50px 0; background:url("../images/services_banner.jpg"); background-repeat: no-repeat; background-size: cover;}
-        .scheduled-form-div{padding: 0px 0;}
-        .scheduled-form-div h2{padding: 21px 0; font-size: 30px; text-align: center;}
-        .scheduled-form-input{ -webkit-box-shadow: 3px 3px 8px -1px rgba(0,0,0,0.75);-moz-box-shadow: 3px 3px 8px -1px rgba(0,0,0,0.75);box-shadow: 3px 3px 8px -1px rgba(0,0,0,0.75); width: 100%;    height: 36px;    background: #f8f8f8;    font-size: 16px;    color: #666;    border-radius: 5px;    padding: 4px 25px;    border: 3px solid #f8f8f8; transition: all 500ms ease;}
-        .scheduled-form-input-textarea{ padding: 1px 39px; -webkit-box-shadow: 3px 3px 8px -1px rgba(0,0,0,0.75);-moz-box-shadow: 3px 3px 8px -1px rgba(0,0,0,0.75);box-shadow: 3px 3px 8px -1px rgba(0,0,0,0.75); width:100%; background: #f8f8f8;    font-size: 16px;    color: #666;    border-radius: 5px;    border: 3px solid #f8f8f8; transition: all 500ms ease;}
-        .cal-img{padding-top:100px;}
-        .form-group label{font-family: 'Signika Negative', sans-serif; font-size: 18px}
-        .scheduled-submit{background-image: linear-gradient(to right, #fe8c00 0%, #f83600  51%, #fe8c00  100%)}
-        .scheduled-submit{ padding: 8px 30px; text-align: center;text-transform: uppercase;transition: 0.5s;background-size: 200% auto; color: white;            box-shadow: 0 0 20px #eee;border-radius: 0px; font-size: 20px;font-family: 'Signika Negative';letter-spacing: 0px;}
-        .scheduled-submit:hover {background-position: right center; color: #000; text-decoration: none;}
-    /*scheduled form end*/
+        .scheduled-container {padding: 100px 0 0;}
+        .scheduled-column{box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75); height: 39em; padding: 20px}
+        .scheduled-img img {height: 27em;    margin-top: 5em;    margin-left: 5em;}
+        /*.scheduled-row{padding: 20px;}*/
+   /*scheduled form end*/
 
         .wrapper-div { position: relative; }
         .wrapper-div i{ position: absolute; top: 30px; left: 34px; font-size: 23px}
